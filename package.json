@@ -1,10 +1,11 @@
 {
   "name": "react-basic-horizontal-scroll",
-  "version": "0.1.0",
+  "version": "0.0.9",
   "private": false,
   "description": "Simple and lightweight horizontal scroll for react.(No scroll bar)",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {
+    "@babel/preset-react": "^7.10.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -33,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2"
   }
 }
