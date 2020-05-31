@@ -1,5 +1,5 @@
 {
-  "name": "react-horizontal-scroll",
+  "name": "react-basic-horizontal-scroll",
   "version": "0.1.0",
   "private": false,
   "description": "Simple and lightweight horizontal scroll for react.(No scroll bar)",
