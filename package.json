@@ -1,9 +1,12 @@
 {
-  "name": "react-basic-horizontal-scroll",
-  "version": "0.1.0",
+  "name": "@eckdev/react-horizontal-scroll",
+  "version": "0.1.1",
   "private": false,
   "description": "Simple and lightweight horizontal scroll for react.(No scroll bar)",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/eckdev"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.10.1",
     "react": "^16.8.6",
