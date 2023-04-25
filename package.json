@@ -1,6 +1,6 @@
 {
   "name": "@eckdev/react-horizontal-scroll",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "Simple and lightweight horizontal scroll for react.(No scroll bar)",
   "main": "lib/index.js",
