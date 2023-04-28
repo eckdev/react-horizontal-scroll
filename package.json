@@ -1,24 +1,26 @@
 {
-  "name": "@eckdev/react-horizontal-scroll",
-  "version": "0.1.2",
+  "name": "react-basic-horizontal-scroll",
+  "version": "0.1.7",
   "private": false,
   "description": "Simple and lightweight horizontal scroll for react.(No scroll bar)",
-  "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/eckdev"
-  },
-  "dependencies": {
-    "@babel/preset-react": "^7.10.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "scroll",
+    "horizontal scroll",
+    "no scrollbar"
+  ],
+  "author": {"email": "eyupcankayadarcin@gmail.com","name": "eckdev | Eyup Can Kayadarcin" },
   "repository": {
     "url": "https://github.com/eckdev/react-horizontal-scroll.git",
     "type": "git"
@@ -39,7 +41,13 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.10.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   }
 }
