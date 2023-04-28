@@ -1,29 +1,25 @@
-# react horizontal scroll
+![React-Basic-Horizomtal-Scroll Logo](/banner.png)
+[![npm](https://img.shields.io/npm/v/react-basic-horizontal-scroll?color=%234fc921)](https://www.npmjs.com/package/react-basic-horizontal-scroll)
 
-## CLI Commands
+It makes it very simple to use horizontal scroll (without scrollbar) in your `React` and `Next` projects.
 
-```bash
-# install dependencies
-npm install
+## Example
+![React-Basic-Horizomtal-Scroll Gif](/rsgif.gif)
+## Install
 
-# serve with hot reload at localhost:3000
-npm run start
-
-# Usage
 ```
-```js
+npm install react-basic-horizontal-scroll
+```
 
+```
+yarn add react-basic-horizontal-scroll
+```
+
+### Use
+```js
 import HorizontalScroll from 'react-basic-horizontal-scroll';
 
-class OtherComponent extends React.Component {
-  render () {
-    return (
-      <div>
         <HorizontalScroll>
-        {children}
+         Your Array map here
         </HorizontalScroll>
-      </div>
-    )
-  }
-}
 ```
